@@ -1,0 +1,14 @@
+vboxuser@UERANSIM5GUbuntu:~/UERANSIM$ cd ~/UERANSIM
+vboxuser@UERANSIM5GUbuntu:~/UERANSIM$ ./build/nr-gnb -c config/open5gs-gnb.yaml
+UERANSIM v3.2.8
+[2026-04-25 19:21:08.935] [sctp] [info] Trying to establish SCTP connection... (127.0.0.5:38412)
+[2026-04-25 19:21:08.942] [sctp] [info] SCTP connection established (127.0.0.5:38412)
+[2026-04-25 19:21:08.942] [sctp] [debug] SCTP association setup ascId[19]
+[2026-04-25 19:21:08.952] [ngap] [debug] Sending NG Setup Request
+[2026-04-25 19:21:08.953] [ngap] [debug] NG Setup Response received
+[2026-04-25 19:21:08.953] [ngap] [info] NG Setup procedure is successful
+[2026-04-25 19:21:23.560] [rrc] [debug] UE[1] new signal detected
+[2026-04-25 19:21:23.569] [rrc] [info] RRC Setup for UE[1]
+[2026-04-25 19:21:23.570] [ngap] [debug] Initial NAS message received from UE[1]
+[2026-04-25 19:21:23.630] [ngap] [debug] Initial Context Setup Request received
+[2026-04-25 19:21:23.881] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]

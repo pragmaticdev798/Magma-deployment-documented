@@ -1,0 +1,22 @@
+CONTAINER ID   IMAGE                                                            COMMAND                   CREATED          STATUS                          PORTS     NAMES
+89fb4d1e6dc5   linuxfoundation.jfrog.io/magma-docker/agw_gateway_c:1.8.0        "sh -c 'mkdir -p /va…"    38 minutes ago   Up 38 minutes (healthy)                   sessiond
+8e44825fc1f9   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   state
+55d3ea864bde   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   policydb
+7065ec7bf9eb   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   directoryd
+ff786fd4683f   linuxfoundation.jfrog.io/magma-docker/agw_gateway_c:1.8.0        "sh -c '/usr/local/b…"    38 minutes ago   Up 38 minutes (healthy)                   oai_mme
+7aef147891bc   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   smsd
+63acc42d8987   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   subscriberdb
+9b34f561fb92   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/bin/bash -c '/usr/…"    38 minutes ago   Up 38 minutes (healthy)                   td-agent-bit
+c10c64c9cdc7   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/bin/bash -c '\n  /u…"   38 minutes ago   Up 38 minutes                             magmad
+01c0f9ca4526   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/bin/bash -c '/usr/…"    38 minutes ago   Up 38 minutes (healthy)                   redis
+bdcb06b30477   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   eventd
+92bbb1cce145   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "bash -c '/usr/bin/o…"    38 minutes ago   Up 38 minutes (healthy)                   pipelined
+51d61ea0dd21   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   redirectd
+b7b5c89bf04c   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Restarting (1) 38 seconds ago             enodebd
+10f7f98251c3   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   monitord
+82acc57cce5d   linuxfoundation.jfrog.io/magma-docker/agw_gateway_c:1.8.0        "/usr/local/bin/conn…"    38 minutes ago   Up 38 minutes (healthy)                   connectiond
+03c8e5be84ae   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   health
+9c407aa404e9   linuxfoundation.jfrog.io/magma-docker/agw_gateway_c:1.8.0        "/usr/local/bin/sctpd"    38 minutes ago   Up 38 minutes                             sctpd
+9350d94c3b69   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "sh -c 'sleep 5 && /…"    38 minutes ago   Up 38 minutes (healthy)                   mobilityd
+07d616b94a17   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "/usr/bin/env python…"    38 minutes ago   Up 38 minutes (healthy)                   ctraced
+115fffb48f16   linuxfoundation.jfrog.io/magma-docker/agw_gateway_python:1.8.0   "sh -c '/usr/local/b…"    38 minutes ago   Up 38 minutes (healthy)                   control_proxy

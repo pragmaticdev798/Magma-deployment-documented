@@ -1,0 +1,8 @@
+1. -- Testing TCP connection to controller.magma.test:7443 -- 
+2. -- Testing Certificate -- 
+3. -- Testing SSL -- 
+4. -- Creating direct cloud checkin -- 
+5. -- Creating proxy cloud checkin -- 
+
+Success!
+

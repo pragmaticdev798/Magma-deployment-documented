@@ -1,0 +1,23 @@
+
+Hardware ID
+-----------
+5a5462e5-81d9-41f4-b431-a9c13c5bb8e6
+
+Challenge key
+-------------
+MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEXqSoH3f59RTqWK9bGjKSQFYXiUgya3a71XgyaLiHrjGXO/wL4MgHn7iKty5a2RztKTJhMTArFABGm6bHf7D9hC304xfogjzPRXuPgQsFx+nLjLR+gqOouFCYUMp8JOm6
+
+Build info
+-------------
+ Commit Branch: unknown
+ Commit Tag: unknown
+ Commit Hash: unknown
+ Commit Date: unknown
+
+Notes
+-----
+- Hardware ID is this gateway's unique identifier
+- Challenge key is this gateway's long-term keypair used for
+  bootstrapping a secure connection to the cloud
+- Build info shows git commit information of this build
+
